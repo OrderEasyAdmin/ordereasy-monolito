@@ -5,7 +5,7 @@ $modelo = $_SESSION['modelo'];
 ?>
     <div class="signin-wrapper">
       <div class="signin-box signup">
-         <center><img src="../img/logoc.png" class="img-fluid" alt="<?php print $nomesite; ?>" width="200">
+         <center><h1>OrderEasy</h1>
          <br /><br />
          <h3 class="signin-title-secondary">CRIAR UMA NOVA CONTA</h3></center>
 		 <div class="signup-separator" style="margin-top:-40px;"><span>SUA URL</span></div>
