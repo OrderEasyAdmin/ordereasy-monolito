@@ -18,4 +18,4 @@ jobs:
           username: githubftp@ordereasy.com.br
           password: @OrderEasy2024
           port: 21
-          server-dir: public_html/
+          server-dir: public_html
