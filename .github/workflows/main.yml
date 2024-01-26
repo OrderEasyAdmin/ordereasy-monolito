@@ -7,13 +7,13 @@ jobs:
   web-deploy:
     name: 🎉 Deploy
     runs-on: ubuntu-latest
+    timeout: 60000
     steps:
       - name: 🚚 Get latest code
         uses: actions/checkout@v2
 
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
-        timeout: 60000
         with:
           server: ${{ secrets.ftp_host }}
           username: ${{ secrets.ftp_username }}
