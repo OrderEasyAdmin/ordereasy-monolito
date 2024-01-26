@@ -17,5 +17,5 @@ jobs:
           server: ftp.ordereasy.com.br
           username: githubftp@ordereasy.com.br
           password: ${{ secrets.ftp_password }}
-          server-dir: /public_html/
+          server-dir: public_html/
           port: 21
