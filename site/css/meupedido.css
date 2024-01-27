@@ -2866,7 +2866,12 @@ input[type="button"].btn-block {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 0.6rem 1.2rem; }
+  padding: 1rem 1.2rem;
+  #order {
+    font-size: 20px;
+  }
+}
+  
   .navbar > .container,
   .navbar > .container-fluid {
     display: flex;
@@ -6601,7 +6606,12 @@ body > * {
   transition: background-color .5s ease-out; }
 
 .navbar-ontop {
-  background-color: transparent !important; }
+  background-color: transparent !important; 
+  padding: 2rem 1.2rem;
+  #order {
+    font-size: 60px
+  }
+}
 
 /* Animate on entrance */
 .animate-in-down {

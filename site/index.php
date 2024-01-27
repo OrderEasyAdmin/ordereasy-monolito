@@ -24,9 +24,11 @@ $nomeX		 		= $dadosgerais->nome;
 
 <body>
   <nav class="navbar navbar-expand-md fixed-top bg-light navbar-light" style="background-color:#CCCCCC">
-    <div class="container"> <a class="navbar-brand" href="#"><div style="width: 300px; height: 100px; background-color: transparent; display: flex; justify-content: center; align-items: center; color: white; font-size: 60px; font-weight: bold;">
-    <span style="color: #67b66f;">Order</span>Easy
-  </div></a> <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+    <div class="container"> <a class="navbar-brand" href="#">
+      <div id="order" style="width: 300px; height: 10px; background-color: transparent; display: flex; justify-content: center; align-items: center; color: white; font-weight: bold;">
+    <span style="color: #67b66f;" id="order">Order</span><span id="order">Easy</span>
+  </div></a> 
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
       <div class="collapse navbar-collapse text-center justify-content-end" id="navbar2SupportedContent">
         <ul class="navbar-nav">
           <li class="nav-item mx-2"> <a class="nav-link" href="#inicio">Início</a> </li>
@@ -57,7 +59,7 @@ $nomeX		 		= $dadosgerais->nome;
     </div>
   </div>
   <!-- passo -->
-  <div class="text-center py-5">
+  <div class="text-center py-5" id="video">
     <div class="container">
       <div class="col-md-12 text-center">
         <h1>Processo rápido e simples!</h1>
@@ -170,8 +172,8 @@ $nomeX		 		= $dadosgerais->nome;
         </div>
       </div>
       <div class="row pt-3">
-        <div class="align-self-center text-md-left col-lg-6 px-4 text-left" style="" id="video">
-          <img class="img-fluid d-block" src="img/img2.jpg">
+        <div class="align-self-center text-md-left col-lg-6 px-4 text-left" style="">
+          <img class="img-fluid d-block" src="img/delivery_2.jpg">
         </div>
         <div class="align-self-center col-lg-6" style="">
           <div class="align-self-center text-md-left col-lg-12 text-left px-4 pt-3" style="">
@@ -334,10 +336,10 @@ $nomeX		 		= $dadosgerais->nome;
     </div>
   </div>
   <!-- Footer -->
-  <div class="pt-5 bg-dark">
+  <div class="pt-55 bg-dark">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 my-3 text-center">
+        <div class="col-md-12 text-center" style="padding-top: 20px">
           <p class="text-muted">© <?=date("Y");?> - <?=$dadosgerais->nomedosite;?> - Todos direitos reservados.</p>
         </div>
       </div>

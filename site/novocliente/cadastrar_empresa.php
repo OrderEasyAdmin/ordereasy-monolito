@@ -5,8 +5,10 @@ $modelo = $_SESSION['modelo'];
 ?>
     <div class="signin-wrapper">
       <div class="signin-box signup">
-         <center><h1>OrderEasy</h1>
-         <br /><br />
+         <center><div style="width: 300px; background-color: transparent; display: flex; justify-content: center; align-items: center; color: white; font-size: 42px; font-weight: bold;">
+    <span style="color: #67b66f;">OrderEasy</span>
+  </div>
+         <br />
          <h3 class="signin-title-secondary">CRIAR UMA NOVA CONTA</h3></center>
 		 <div class="signup-separator" style="margin-top:-40px;"><span>SUA URL</span></div>
 		 <p align="center"><?php print $urlmaster; ?>/<span style="color:#FF0000"><?php print $url; ?></span></p>

@@ -1,7 +1,8 @@
 <div class="signin-wrapper">
       <div class="signin-box">
-        <center><img src="../img/logoc.png" class="img-fluid" alt="<?php print $nomesite; ?>" width="200">
-		<br /><br />
+        <center><<div style="width: 300px; background-color: transparent; display: flex; justify-content: center; align-items: center; color: white; font-size: 42px; font-weight: bold;">
+    <span style="color: #67b66f;">OrderEasy</span>
+  </div>
         <h3 class="signin-title-secondary">CRIAR UMA NOVA CONTA</h3></center>
 		
 		

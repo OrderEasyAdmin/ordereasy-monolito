@@ -12,7 +12,9 @@ $novocli	= $confgadm->novocliente;
 ?>
     <div class="signin-wrapper">
       <div class="signin-box signup">
-         <center><h2 class="slim-logo"><img src="../img/logoc.png" class="img-fluid" alt="<?php print $nomesite; ?>" width="200"></h2>
+         <center><h2 class="slim-logo"><div style="width: 300px; background-color: transparent; display: flex; justify-content: center; align-items: center; color: white; font-size: 42px; font-weight: bold;">
+    <span style="color: #67b66f;">OrderEasy</span>
+  </div></h2>
          <h3 class="signin-title-secondary">CADASTRO FINALIZADO</h3></center>
 		 <div class="signup-separator" style="margin-top:-40px;"><span>IMPORTANTE</span></div>
 		 <p style="margin-top:10px; color:#666666; font-size:13px" align="justify"><strong>
